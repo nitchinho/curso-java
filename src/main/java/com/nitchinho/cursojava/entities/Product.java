@@ -13,6 +13,7 @@ import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
+
 @Entity
 @Table(name = "tb_product")
 public class Product implements Serializable {
@@ -33,7 +34,7 @@ public class Product implements Serializable {
 
 	public Product() {
 
-	}
+		}
 
 	public Product(Long id, String name, String description, Double price, String imgUrl) {
 		super();
